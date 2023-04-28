@@ -1,0 +1,67 @@
+.maaga{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.main_string{
+    font-family: Arial;
+    color: #c26060;
+    font-size: 60px;
+}
+.add__btn{
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 40px;
+    width: 68px;
+    height: auto;
+    font-size: 50px;
+    font-family: "Arial Black";
+    margin: 20px;
+    cursor: pointer;
+}
+
+.root{
+    max-width: 1200px;
+    width: 400px;
+    height: 500px;
+    left: 0%;
+}
+.choose_color {
+    position: absolute;
+    left: 355px;
+    top: 110px;
+    appearance: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.choose_color::-webkit-color-swatch{
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.inner_buttons_ADD {
+    position: absolute;
+    left: 310px;
+    top: 115px;
+    padding: 5px;
+}
+.inner_buttons_EDIT{
+    position: absolute;
+    left: 310px;
+    top: 115px;
+    padding: 5px;
+}
+.inner_buttons_DEL{
+     position: absolute;
+     left: 250px;
+     top: 115px;
+     padding: 5px;
+ }
+.textarea_note {
+    width: 394px;
+    height: 200px;
+}
